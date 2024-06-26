@@ -45,27 +45,46 @@
             width: 1800px;
         }
 
-        #product{
+        .product{
             text-align: center;
             font-size: 60px;
             font-weight: bold;
             padding: 30px 0px;
         }
 
-        #img_product{
+        .img_product{
             text-align: center;
         }
-        #img_product>img{
-            width: 400px;
-            height:400px;
+        .img_product>img{
+            width: 300px;
+            height: 300px;
             padding: 0px 40px;
+        }
+        .center{
+            display: flex;
+            flex-direction: row;
+        }
+        .open{
+            width: 50%;
+            background-color: lightblue;
+            padding: 20px 0px;
+        }
+        .open>ul{
+            font-size: 40px;
+            padding: 20px 20px 20px 250px;
+        }
+        #notice{
+            font-size: 30px;
+            background-color: lightblue;
+            padding: 20px 250px;
         }
 
         #bottom{
             text-align: center;
             font-size: 20px;
+            color: #fff;
             height: 150px;
-            background-color: lightblue;
+            background-color: navy;
         }
         #bottom>p{
            
@@ -74,20 +93,20 @@
 </head>
 <body>
     <div id="logo">
-        PHONE
+        FC ONLINE
     </div>
     <div id="menu">
         <span>
-            <a href="./1.html">회사소개</a>
+            <a href="./1.html">선수소개</a>
         </span>
         <span>
-            <a href="./2.html">제품소개</a>
+            <a href="./2.html">이적시장</a>
         </span>
         <span>
-            <a href="./3.html">고객센터</a>
+            <a href="./3.html">라커룸</a>
         </span>
         <span>
-            <a href="./4.html">공지사항</a>
+            <a href="./4.html">플레이</a>
         </span>
     </div>
     <!-- menu -->
@@ -95,14 +114,48 @@
         <img src="./main01.png" alt="">
     </div>
     <!-- img -->
-    <div id="product">
-        제 품 소 개
+    <div class="product">
+        선 수 소 개
     </div>
-    <div id="img_product">
+    <div class="img_product">
         <img src="./phone1.jpeg" alt="">
         <img src="./phone2.jpeg" alt="">
         <img src="./phone3.jpeg" alt="">
         <img src="./phone4.jpeg" alt="">
+    </div>
+    <div class="img_product">
+        <img src="./phone1.jpeg" alt="">
+        <img src="./phone2.jpeg" alt="">
+        <img src="./phone3.jpeg" alt="">
+        <img src="./phone4.jpeg" alt="">
+    </div>
+    <div class="product">
+        정 기 점 검
+    </div>
+    <div class="center">
+        <div class="open">
+            <ul>
+                <li>점검 시간 : 오전 3:00 ~ 오후 2:00</li>
+                <li>문의 전화 : 010-1234-5678</li>
+                <li>로스터 패치 : 많이 바뀜</li>
+            </ul> 
+        </div>
+        <div class="open">
+            <div style="font:normal normal 400 12px/normal dotum, sans-serif; width:640px; height:391px; color:#333; position:relative"><div style="height: 360px;"><a href="https://map.kakao.com/?urlX=829315.0&amp;urlY=606040.0&amp;itemId=1559056712&amp;q=%EB%8C%80%EA%B5%AC%EA%B3%B5%EC%97%85%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%20%ED%85%8C%ED%81%AC%EB%85%B8%ED%8F%B4%EB%A6%AC%EC%8A%A4%EC%BA%A0%ED%8D%BC%EC%8A%A4&amp;srcid=1559056712&amp;map_type=TYPE_MAP&amp;from=roughmap" target="_blank"><img class="map" src="http://t1.daumcdn.net/roughmap/imgmap/69f7006adc13a4ca194c300c78ef04aafb6facbf4c7955bcf9e73494e2d43229" width="638px" height="358px" style="border:1px solid #ccc;"></a></div><div style="overflow: hidden; padding: 7px 11px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 0px 0px 2px 2px; background-color: rgb(249, 249, 249);"><a href="https://map.kakao.com" target="_blank" style="float: left;"><img src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵" style="display:block;width:72px;height:16px"></a><div style="float: right; position: relative; top: 1px; font-size: 11px;"><a target="_blank" href="https://map.kakao.com/?from=roughmap&amp;srcid=1559056712&amp;confirmid=1559056712&amp;q=%EB%8C%80%EA%B5%AC%EA%B3%B5%EC%97%85%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%20%ED%85%8C%ED%81%AC%EB%85%B8%ED%8F%B4%EB%A6%AC%EC%8A%A4%EC%BA%A0%ED%8D%BC%EC%8A%A4&amp;rv=on" style="float:left;height:15px;padding-top:1px;line-height:15px;color:#000;text-decoration: none;">로드뷰</a><span style="width: 1px;padding: 0;margin: 0 8px 0 9px;height: 11px;vertical-align: top;position: relative;top: 2px;border-left: 1px solid #d0d0d0;float: left;"></span><a target="_blank" href="https://map.kakao.com/?from=roughmap&amp;eName=%EB%8C%80%EA%B5%AC%EA%B3%B5%EC%97%85%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%20%ED%85%8C%ED%81%AC%EB%85%B8%ED%8F%B4%EB%A6%AC%EC%8A%A4%EC%BA%A0%ED%8D%BC%EC%8A%A4&amp;eX=829315.0&amp;eY=606040.0" style="float:left;height:15px;padding-top:1px;line-height:15px;color:#000;text-decoration: none;">길찾기</a><span style="width: 1px;padding: 0;margin: 0 8px 0 9px;height: 11px;vertical-align: top;position: relative;top: 2px;border-left: 1px solid #d0d0d0;float: left;"></span><a target="_blank" href="https://map.kakao.com?map_type=TYPE_MAP&amp;from=roughmap&amp;srcid=1559056712&amp;itemId=1559056712&amp;q=%EB%8C%80%EA%B5%AC%EA%B3%B5%EC%97%85%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%20%ED%85%8C%ED%81%AC%EB%85%B8%ED%8F%B4%EB%A6%AC%EC%8A%A4%EC%BA%A0%ED%8D%BC%EC%8A%A4&amp;urlX=829315.0&amp;urlY=606040.0" style="float:left;height:15px;padding-top:1px;line-height:15px;color:#000;text-decoration: none;">지도 크게 보기</a></div></div></div>
+        </div>
+    </div>
+    <br>
+    <div class="product">
+        업 데 이 트
+    </div>
+    <div>
+        <div id="notice">
+            <ol>
+                <li>알립니다!! 신규시즌 24TOTS 등장 !!</li>
+                <li>급여 255 -> 260 변경 !!</li>
+                <li>팀컬러 변경 !!</li>
+            </ol> 
+        </div>   
     </div>
     <div id="bottom">
     <p>
